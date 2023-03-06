@@ -116,8 +116,8 @@
     echo "<br>";
 
     $magasin1 = new Magasins("Lucas", "Pinchon", "2001-01-03", "Patron", 300000, "Dev", "Magasin","70 rue Quelque Part", 80000, "Amiens", "ticket");
-    $magasin2 = new Magasins("Paul", "fezecz", "2010-10-30", "Stagiaire", 1000, "Comm", "Magasin2","70 rue Quelque Part", 80000, "Amiens", "self");
-    $magasin3 = new Magasins("Jacque", "eczqec", "2013-09-30", "Chef", 15000, "Comm", "Magasin3","70 rue Quelque Part", 80000, "Amiens", "self");
+    $magasin2 = new Magasins("Paul", "fezecz", "2010-10-30", "Stagiaire", 1000, "Comm", "Magasin2","30 rue Perdu", 80000, "Paris", "self");
+    $magasin3 = new Magasins("Jacque", "eczqec", "2013-09-30", "Chef", 15000, "Comm", "Magasin3","200f rue Partie", 80000, "Lost", "self");
 
     $magasin1->affiche();
     $magasin1->Resto();
